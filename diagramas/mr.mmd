@@ -1,0 +1,48 @@
+erDiagram
+    CIDADE ||--o{ FUNCIONARIO : "reside em"
+    CARGO ||--o{ FUNCIONARIO : "ocupa"
+    FUNCAO ||--o{ FUNCIONARIO : "exerce"
+    FUNCIONARIO ||--o{ FILHO : "tem"
+    FUNCIONARIO ||--o{ TELEFONE : "possui"
+
+    CIDADE {
+        string NomeCidade PK
+        string Provincia
+        string Pais
+    }
+
+    CARGO {
+        string CodCargo PK
+        string DescricaoCargo
+    }
+
+    FUNCAO {
+        string CodFuncao PK
+        string DescricaoFuncao
+    }
+
+    FUNCIONARIO {
+        string NUIT PK
+        string Nome
+        date DataNasc
+        string BI
+        string Email
+        string Via
+        string Numero
+        string Bairro
+        string NomeCidade FK
+        string CodCargo FK
+        string CodFuncao FK
+        string PostoTrabalho
+        date DataAdmissao
+    }
+
+    FILHO {
+        string NUIT FK
+        string NomeFilho
+    }
+
+    TELEFONE {
+        string NUIT FK
+        string NumeroCelular
+    }
