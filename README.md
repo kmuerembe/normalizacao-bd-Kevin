@@ -12,7 +12,7 @@ Este repositório documenta o processo de normalização (1FN → 4FN) de uma ta
 ├── documentos/
 │   └── analise-normalizacao.md   # Análise dos problemas e justificação de cada forma normal (1FN-4FN)
 ├── diagramas/
-│   └── mer.mmd                   # Modelo Entidade-Relacionamento (formato Mermaid)
+│   └── mer.jpg                  # Modelo Entidade-Relacionamento (formato Mermaid)
 ├── sql/
 │   ├── schema.sql                # DDL - criação de todas as tabelas do esquema final
 │   ├── dados_exemplo.sql         # Dados de exemplo para popular as tabelas
