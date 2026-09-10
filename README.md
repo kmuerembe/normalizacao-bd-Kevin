@@ -37,4 +37,4 @@ Este repositório documenta o processo de normalização (1FN → 4FN) de uma ta
 
 ## Vídeo explicativo
 
-[Link do vídeo a adicionar aqui]
+https://youtu.be/S8bONM1TGT0?feature=shared
